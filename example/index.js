@@ -1,10 +1,3 @@
-# retry
-
-当做某件事情时若结果不符合预期可以进行重试，给任何事情第二次机会
-
-用法如下：
-
-```js
 import { retry } from "retry";
 
 /**
@@ -117,4 +110,3 @@ async function dosomething4() {
   });
 }
 dosomething4();
-```
