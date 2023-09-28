@@ -1,6 +1,6 @@
 {
   "name": "retry-anything",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "当做某件事情时若结果不符合预期可以进行重试，给任何事情第二次机会",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
