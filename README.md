@@ -10,7 +10,7 @@
 - adapter 会接收一个 `remainRetryTimes`表示剩余重试次数，可以用来做埋点或监控大多数用户重试多少次成功
 
 ```js
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 async function dosomething1() {
   await retry({
@@ -33,7 +33,7 @@ dosomething1();
 - 基本用法 当 adapter 的返回值为真值时 重试停止，进入 then 分支，若达到最大次数仍然为 false 会抛出 promise 异常进入 catch 分支
 
 ```js
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 async function dosomething2() {
   await retry({
@@ -57,7 +57,7 @@ dosomething2();
 - 基本用法 当 adapter 的返回值为真值时 重试停止，进入 then 分支，若达到最大次数仍然为 false 会抛出 promise 异常进入 catch 分支
 
 ```js
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 async function dosomething3() {
   await retry({
@@ -83,7 +83,7 @@ dosomething3();
 - 基本用法 当 adapter 的返回值为真值时 重试停止
 
 ```js
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 async function dosomething4() {
   await retry({
@@ -110,7 +110,7 @@ dosomething4();
 - 基本用法当 adapter 的返回值为真值时 重试停止，进入 then 分支，若达到最大次数仍然为 false 会抛出 promise 异常进入 catch 分支
 
 ```js
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 async function dosomething4() {
   await retry({

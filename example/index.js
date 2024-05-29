@@ -1,4 +1,4 @@
-import { retry } from "retry";
+import { retry } from "retry-anything";
 
 /**
  * 默认重试次数3次 加上首次执行共四次
